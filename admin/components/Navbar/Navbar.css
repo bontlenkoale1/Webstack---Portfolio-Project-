@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px;
+    align-items: center;
+    background: #f42424;
+} 
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar hr{
+    background-color: whitesmoke;
+}
+.navbar p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+@media(max-width:800px){
+        .navbar{
+           padding: 10px 0px;
+        }
+        .nav-logo{
+            width: 150px;
+        }
+        .nav-profile{
+            width: 60px;
+        }
+}
+@media(max-width:500px){
+            .navbar{
+                width: 8px 0px;
+                gap: 0px; 
+            }
+}      
